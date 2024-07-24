@@ -9,6 +9,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SidebarComponent,
     ProyectosComponent,
     ContactoComponent,
-    SobreMiComponent
+    SobreMiComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
