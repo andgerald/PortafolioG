@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { HttpClient, provideHttpClient } from '@angular/common/http';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-contacto',
