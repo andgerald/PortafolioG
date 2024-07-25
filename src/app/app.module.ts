@@ -10,6 +10,7 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InicioComponent } from './inicio/inicio.component';
     ProyectosComponent,
     ContactoComponent,
     SobreMiComponent,
-    InicioComponent
+    InicioComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
