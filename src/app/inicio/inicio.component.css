@@ -1,0 +1,5 @@
+.container_inicio {
+  display: flex;
+  height: 800px;
+  align-items: center;
+}
