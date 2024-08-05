@@ -23,8 +23,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs/portafolio/",
-            "baseHref": "/Portafolio/",
+            "outputPath": "dist/PortafolioG/",
+            "baseHref": "/PortafolioG/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -100,6 +100,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
