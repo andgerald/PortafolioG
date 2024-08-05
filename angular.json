@@ -23,8 +23,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/PortafolioG/",
-            "baseHref": "/docs/PortafolioG/browser/index.html",
+            "outputPath": "docs",
+            "baseHref": "/PortafolioG/                       ",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
