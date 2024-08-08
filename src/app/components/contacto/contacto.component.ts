@@ -20,7 +20,7 @@ export class ContactoComponent {
   enviarCorreo() {
     if (this.contactForm.valid) {
       const params = this.contactForm.value;
-      this.httpClient.post('http://localhost:3000/enviar', params, { responseType: 'text' }).subscribe({
+      this.httpClient.post('https://mailerportafolio.onrender.com/enviar', params, { responseType: 'text' }).subscribe({
         next: (response) => {
           console.log('Correo enviado con éxito:', response);
           alert('Correo enviado con éxito');
@@ -36,5 +36,5 @@ export class ContactoComponent {
     }
   }
 
-
+  
 }
